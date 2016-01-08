@@ -1,13 +1,14 @@
 # Site Info
 title:              "Supersofus - Blog"
 description:        "Blogging about big and small."
-
+google_verify:       # Put your Google Verification here
+google_analytics:    # Put your Google Analytics code
 
 # Author Info
-author_name:        "Heiswayi Nrird"
-author_email:       hnrird@gmail.com
-author_gravatar:    2b38b1b0e7e08b69379bd61582adf0c8 # Gravatar md5 hash
-twitter_username:   HeiswayiNrird
+author_name:        "Super Sofus"
+author_email:       
+author_gravatar:     # Gravatar md5 hash
+twitter_username:   
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
