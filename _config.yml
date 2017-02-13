@@ -5,7 +5,7 @@ google_verify:       # Put your Google Verification here
 google_analytics:    # Put your Google Analytics code
 
 # Author Info
-author_name:        "Super Sofus"
+author_name:        "Niels Christian"
 author_email:       
 author_gravatar:     # Gravatar md5 hash
 twitter_username:   
@@ -16,7 +16,7 @@ permalink:          /notes/:title # Post permalink
 timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
-highlighter:        pygments
+highlighter:        rouge
 #markdown:           redcarpet
 #redcarpet:
 #    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
