@@ -1,5 +1,5 @@
 # Site Info
-title:              "Supersofus - Blog"
+title:              "Niels Christian is on the Internet"
 description:        "Blogging about big and small."
 google_verify:       # Put your Google Verification here
 google_analytics:    # Put your Google Analytics code
@@ -13,7 +13,7 @@ twitter_username:
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Europe/Bruxelles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
 highlighter:        rouge
