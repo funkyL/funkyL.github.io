@@ -3,10 +3,13 @@
 	<ul>
 	
 	{% for pa in site.pages %}
-
-		<li><a href="{{ pa.url | prepend: site.baseurl }}">{{ pa.title }}</a></li>
-
 	
+		{% if page.show == 'yes' %}
+
+			<li><a href="{{ pa.url | prepend: site.baseurl }}">{{ pa.title }}</a></li>
+
+		{% endif %}
+
 	{% endfor %}
 
 	</ul>
