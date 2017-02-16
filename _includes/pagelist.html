@@ -1,0 +1,14 @@
+<section>
+
+	<ul>
+	
+	{% for pa in site.pages %}
+
+		<li><a href="{{ pa.url | prepend: site.baseurl }}">{{ pa.title }}</a></li>
+
+	
+	{% endfor %}
+
+	</ul>
+
+</section>
