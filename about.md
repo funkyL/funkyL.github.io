@@ -1,5 +1,6 @@
 ---
 title: About
+hide: hide
 ---
 
 Hey there,

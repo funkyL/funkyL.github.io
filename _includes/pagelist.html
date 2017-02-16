@@ -4,7 +4,9 @@
 	
 	{% for pa in site.pages %}
 	
-		{% if page.show == 'yes' %}
+		{% if pa contains 'hide' %}
+
+		{% else %}
 
 			<li><a href="{{ pa.url | prepend: site.baseurl }}">{{ pa.title }}</a></li>
 
