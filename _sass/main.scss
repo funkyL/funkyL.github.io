@@ -348,11 +348,11 @@ section {
   ul#pages-nav {
   	position: fixed;
   	bottom: 0;
-  	margin: 3 auto;
+  	margin: auto;
 	li {
 		display: inline-block;
-		float: right;
-		margin: 3px;
+		float: left;
+  		margin: .4em 4em;
 	}
 }
 }
