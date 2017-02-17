@@ -344,14 +344,14 @@ section {
         }
       }
     }
-    #pages-nav {
-		li {
-			display: inline-block;
-			float: right;
-			margin: 3px;
-		}
-    }
   }
+  ul#pages-nav {
+	li {
+		display: inline-block;
+		float: right;
+		margin: 3px;
+	}
+}
 }
 @keyframes bounce {0% {
     transform: translate3d( 0, -1000px, 0 );
