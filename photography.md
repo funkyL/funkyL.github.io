@@ -1,5 +1,5 @@
 ---
 title: Photography
-hid: no
+hide: no
 ---
 Lorem ipsum blablabla.
