@@ -349,10 +349,11 @@ section {
   	position: fixed;
   	bottom: 0;
   	margin: auto;
+  	vertical-align: middle;
 	li {
 		display: inline-block;
 		float: left;
-  		margin: .4em 4em;
+  		margin: .4em 2em;
 	}
 }
 }
