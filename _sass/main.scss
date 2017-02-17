@@ -346,9 +346,8 @@ section {
     }
   }
   ul#pages-nav {
-  	position: relative;
+  	position: fixed;
   	bottom: 0;
-  	right:0;
 	li {
 		display: inline-block;
 		float: right;
