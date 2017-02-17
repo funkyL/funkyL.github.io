@@ -345,9 +345,10 @@ section {
       }
     }
     #pages-nav {
-		float: right;
 		li {
 			display: inline-block;
+			float: right;
+			margin: 3px;
 		}
     }
   }
