@@ -1,12 +1,10 @@
-<section>
+<section id="nav-pages">
 
 	<ul>
 	
 	{% for pa in site.pages %}
 	
-		{% if pa contains 'hide' %}
-
-		{% else %}
+		{% if pa contains 'hide' and pa.hide == 'no' %}
 
 			<li><a href="{{ pa.url | prepend: site.baseurl }}">{{ pa.title }}</a></li>
 
