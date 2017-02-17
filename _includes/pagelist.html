@@ -4,7 +4,7 @@
 	
 	{% for pa in site.pages %}
 	
-		{% if pa containts 'show' %}
+		{% if pa contains 'show' %}
 
 			<li><a href="{{ pa.url | prepend: site.baseurl }}">{{ pa.title }}</a></li>
 
