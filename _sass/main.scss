@@ -355,8 +355,11 @@ section {
 		display: inline;
 		margin: .2em;
   		a {
-  			padding: .1em 1em;
+  			padding: .15em .5em;
+  			background: #3B0303;
+  			color: white;
   		}
+  		a:hover{ background: #240000; }
 	}
 	@media (max-width : 499px) { width: auto; }
   }
