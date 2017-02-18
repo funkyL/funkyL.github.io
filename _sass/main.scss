@@ -349,13 +349,17 @@ section {
   	position: fixed;
   	bottom: 0;
   	margin: auto;
-  	vertical-align: middle;
+  	width: 500px;
+  	text-align: center;
 	li {
-		display: inline-block;
-		float: left;
-  		margin: .4em 2em;
+		display: inline;
+		margin: .2em;
+  		a {
+  			padding: .1em 1em;
+  		}
 	}
-}
+	@media (max-width : 499px) { width: auto; }
+  }
 }
 @keyframes bounce {0% {
     transform: translate3d( 0, -1000px, 0 );
